@@ -8,6 +8,7 @@
   <h1>sono tornata con un nuovo sito per voi</h1>
   <h2>scegliamo chi interrogare</h2>
 <input type="button" id="button" value="oggi interrogo" onClick="interroga()"> </>
+  <input type="button" id="button2" value="scegliamo chi prende un più oggi" onClick="più()"> </>
   <div>
   <ul>
   <li>Idan</li>
@@ -33,7 +34,10 @@
   var a= Math.floor(Math.random()*15)+1
   document.getElementsByTagName("li")[a].style.color="red"
   };
-
+function più(){
+   var a= Math.floor(Math.random()*15)+1
+   document.getElementsByTagName("li")[a].style.color="green"
+};
   document.getElementById("demo").innerHTML=  "CIAOO";
   </script>
 
