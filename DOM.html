@@ -7,12 +7,13 @@
   <title>BENVENUTI NEL MIO NUOVO SITO!</title> 
   <h1>sono tornata con un nuovo sito per voi</h1>
   <h2>scegliamo chi interrogare</h2>
- <button id="interrogo" type="interroga">interroga</button>  
+ <button id="interrogo" type="Interroga">interroga</button>  
 <script>
+  var button=document.getElementById("interrogo");
   function(){
   var a =Math.floor(Math.random()*15)+1
   };
-  interrogo.addEventListener(click,a);
+  button.addEventListener("click",a);
   document.getElementById("demo").innerHTML=  "CIAOO";
   </script>
 
