@@ -7,11 +7,11 @@
   <title>BENVENUTI NEL MIO NUOVO SITO!</title> 
   <h1>sono tornata con un nuovo sito per voi</h1>
   <h2>scegliamo chi interrogare</h2>
-<p> interrogo: <input type="button" value="oggi interrogo" onClick="interroga()"> </>
+<input type="button" id="button" value="oggi interrogo" onClick="interroga()"> </>
 <script TYPE="text/javascript">
   
   function interroga(){
-  var a =Math.floor(Math.random()*15)+1
+  document.getElementById("button")= Math.floor(Math.random()*15)+1
   };
 
   document.getElementById("demo").innerHTML=  "CIAOO";
