@@ -8,13 +8,12 @@
 </body>
   
   <script>
-    var manichino= document.getElementById("manichino");
-    var onManichinoClick=function(e){
+    var statua= document.getElementById("manichino");
+    var onStatuaClick= function(e){
       var vestitorosso = document.getElementById("vestito");
- vestitorosso.style.top=e.clientY+"px";
+     vestitorosso.style.top=e.clientY+"px";
       vestitorosso.style.left=e.clientX+"px";
-
-    };
+ };
     manichino.addEventListener("click", onManichinoClick);
     
     
