@@ -10,11 +10,12 @@
 </body>
   <script>
     var manichino= document.getElementById("manichino");
-    var onmanichinoClick=function(e){
+    var onManichinoClick=function(e){
       var gonne= document.getElementById("gonna");
       gonne.style.top=e.clientY+"px";
       gonne.style.left=e.clientX+"px";
     };
+    manichino.addEventListener("click", onManichinoClick);
     </script>
   <style>
     h1 {
