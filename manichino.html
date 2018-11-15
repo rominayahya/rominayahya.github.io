@@ -17,10 +17,10 @@
     };
     manichino.addEventListener("click", onManichinoClick);
      var manichino2= document.getElementById("manichino");
-    var onManichinoClick=function(e){
+    var onManichinoClick=function(a){
       var maglioni= document.getElementById("maglione");
-      maglioni.style.top=e.clientY+"px";
-      maglioni.style.left=e.clientX+"px";
+      maglioni.style.top=a.clientY+"px";
+      maglioni.style.left=a.clientX+"px";
     };
     manichino.addEventListener("click", onManichinoClick);
     manichino2.addEventListener("click", onManichinoClick);
