@@ -12,11 +12,11 @@
     var manichino= document.getElementById("manichino");
     var onManichinoClick=function(e){
       var gonne= document.getElementById("gonna");
-      //var maglioni= document.getElementById("maglione");
+      var maglioni= document.getElementById("maglione");
       gonne.style.top=e.clientY+"px";
       gonne.style.left=e.clientX+"px";
-  //maglioni.style.top=e.clientY+"px";
-//maglioni.style.left=e.clientX+"px";
+  maglioni.style.top=e.clientY+"px";
+maglioni.style.left=e.clientX+"px";
   
     };
     manichino.addEventListener("click", onManichinoClick);
