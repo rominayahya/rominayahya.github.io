@@ -8,16 +8,13 @@
 </body>
   
   <script>
-    var Statua= document.getElementById("manichino");
-  var onStatuaClick = function(e) {
-    var vestitino = document.getElementById("vestito");
-    vestitino.style.top= e.clientY +"px";
-    vestitino.style.left= e.clientX +"px";
-  };
- 
-    Statua.addEventListener("click", onStatuaClick);
-    
-    
+     var manichino = document.getElementById("manichino");
+            var onManichinoClick = function(e) {
+                var vRosso = document.getElementById("vestito");  
+                vRosso.style.top = e.clientY+"px";
+                vRosso.style.left = e.clientX+"px";
+            };
+            manichino.addEventListener("click", onManichinoClick);
     </script>
   <style>
     h1 {
