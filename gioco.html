@@ -1,1 +1,29 @@
-
+<html>
+<body>
+  <h1><strong>Vesti il manichino!</strong> </h1>
+  <br>
+   <img id ="manichino"src="manichino.jpg" alt= "vestimi" />
+ <br>
+   <img id ="vestito"src="vestito.jpg" alt= "rosso" width="70" height="100" />
+</body>
+  
+  <script>
+     var manichino = document.getElementById("manichino");
+            var onManichinoClick = function(e) {
+                var vRosso = document.getElementById("vestito");  
+                vRosso.style.top = e.clientY+"px";
+                vRosso.style.left = e.clientX+"px";
+            };
+            manichino.addEventListener("click", onManichinoClick);
+    </script>
+  <style>
+    h1 {
+    color : rgb(216,191,216);
+    }
+    body{
+      
+    background-color: rgb(224,255,255);
+    }
+  </style>
+  
+</html>
