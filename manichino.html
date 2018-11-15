@@ -11,8 +11,8 @@
     var Statua= document.getElementById("manichino");
   var onStatuaClick = function(e) {
     var vestitino = document.getElementById("vestito");
-    vestitino.style.top= e.clientY;
-    vestitino.style.left= e.clientX;
+    vestitino.style.top= e.clientY +"px";
+    vestitino.style.left= e.clientX +"px";
   };
  
     Statua.addEventListener("click", onStatuaClick);
