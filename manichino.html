@@ -21,6 +21,14 @@
       gonne.style.left=e.clientX+"px";
     };
     manichino.addEventListener("click", onManichinoClick);
+     var manichino2= document.getElementById("manichino");
+    var onManichinoClick=function(e){
+      var maglioni= document.getElementById("maglione");
+      maglioni.style.top=e.clientY+"px";
+      maglioni.style.left=e.clientX+"px";
+    };
+    manichino.addEventListener("click", onManichinoClick);
+    manichino2.addEventListener("click", onManichinoClick);
     </script>
   <style>
     h1 {
