@@ -8,6 +8,14 @@
   <br>
    <img id ="maglione"src="maglione.jpg" alt= "maglione" width="100" height="50" />
 </body>
+  <script>
+    var manichino= document.getElementById("manichino");
+    var onmanichinoClick=function(e){
+      var gonne= document.getElementById("gonna");
+      gonne.style.top=e.clientY+"px";
+      gonne.style.left=e.clientX+"px";
+    };
+    </script>
   <style>
     h1 {
     color : rgb(216,191,216);
