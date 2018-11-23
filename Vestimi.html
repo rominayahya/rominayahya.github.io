@@ -2,8 +2,19 @@
 <body>
 <h1><strong>VESTI IL MANICHINO</strong></h1>
 <br>
-<img id="manichino" src="manichino.jpg" width="300" height="500" />
+<img id="manichino" src="manichino.jpg" width="500" height="500" />
 <br>
 <img id= "gonna" src= "gonna.jpg" width="100" height="100" />
   <body/>
-  <html/>
+  <script >
+    var mancihini= document.getElementById("manichino");
+    var onManichiniClick= function(e) {
+      var gonne = document.getElementById("gonna")
+      gonne.style.top= e.clientY+"px"
+      gonne.style.left=e.clientX+"px"
+    };
+    manichini.addEventListener("click",onManichiniClick);
+    <script/>
+      
+   
+  
