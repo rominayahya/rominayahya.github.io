@@ -10,10 +10,10 @@
     var mancihini= document.getElementById("manichino");
     var onManichiniClick= function(e) {
       var gonne = document.getElementById("gonna")
-      gonne.style.top= e.clientY+"px"
-      gonne.style.left=e.clientX+"px"
+      gonne.style.top= e +"px"
+      gonne.style.left=e+"px"
     };
-    manichini.addEventListener("click",onManichiniClick);
+    manichini.addEventListener("click",onManichiniClick(200));
     </script>
   <style>
     h1{
