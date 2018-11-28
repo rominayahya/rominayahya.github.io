@@ -5,11 +5,11 @@
   <script>
     var bottoneEl= document.getElementById("button");
     scappa = function()
-      var Xp=Math.floor(Math.random()*100);
-      var Yp=Math.floor(Math.random()*100);
+      var Xposition =Math.floor(Math.random()*100);
+      var Yposition =Math.floor(Math.random()*100);
    bottoneEl.style.position="absolute";
-    bottoneEl.style.top= Xp+"px";
-      bottoneEl.style.left= Yp+"px";
+    bottoneEl.style.top= Xposition+"px";
+      bottoneEl.style.left= Yposition+"px";
    }
     bottoneEl.addEventListener("mouseover",scappa);
     
