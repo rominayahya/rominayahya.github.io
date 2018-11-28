@@ -3,15 +3,15 @@
  <input type="button" id="button" value="CLICCAMII"  width="100" height="100" />
   </body>
   <script>
-    var bottoneEl= document.getElementById("button");
+    var buttonEl= document.getElementById("button");
     scappa = function()
       var Xposition =Math.floor(Math.random()*100);
       var Yposition =Math.floor(Math.random()*100);
-   bottoneEl.style.position="absolute";
-    bottoneEl.style.top= Xposition+"px";
-      bottoneEl.style.left= Yposition+"px";
+   buttonEl.style.position="absolute";
+    buttonEl.style.top= Xposition+"px";
+      buttonEl.style.left= Yposition+"px";
    }
-    bottoneEl.addEventListener("mouseover",scappa);
+    buttonEl.addEventListener("mouseover",scappa);
     
   </script>
 </html>
