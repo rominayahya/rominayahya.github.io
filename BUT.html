@@ -10,13 +10,13 @@
  </style>
   <script>
     var buttonEl= document.getElementById("button");
-    scappa = function()
+    scappa = function(){
       var XPosition =Math.floor(Math.random()*100);
       var YPosition =Math.floor(Math.random()*100);
   
     buttonEl.style.top= XPosition+"px";
       buttonEl.style.left= YPosition+"px";
-   }
+   };
     buttonEl.addEventListener("mouseover",scappa);
     
   </script>
