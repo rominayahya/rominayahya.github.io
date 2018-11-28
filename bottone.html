@@ -9,12 +9,14 @@
  <input type="button" id="button" value="CLICCAMII"  width="100" height="100"> </>
   </body>
   <script>
-    var bottone= document.getElementById("button");
-    var onMouseOver = function(){
-    button.style.left= Math.floor(Math.random()*100);
-    
+    var bottoneEl= document.getElementById("button");
+    scappa = function(){
+    var Xp= Math.floor(Math.random()*100);
+      var Yp=Math.floor(Math.random()*100);
+    bottoneEl.style.top= Yp;
+      bottoneEl.style.left= Xp;
    }
-    button.addEventListener("mouseOver";onMouseOver);
+    bottoneEl.addEventListener("mouseover";scappa);
     
   </script>
 </html>
