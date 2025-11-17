@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Haftalık Beslenme Planı</title>
+<style>
+  @media print {
+    body {
+      margin: 10mm 15mm;
+    }
+    table {
+      page-break-inside: avoid;
+    }
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  h1 {
+    text-align: center;
+    color: #2E8B57;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    page-break-inside: avoid;
+  }
+  th {
+    background-color: #2E8B57;
+    color: white;
+    padding: 12px;
+    text-align: center;
+  }
+  td {
+    padding: 10px;
+    vertical-align: top;
+    font-size: 12pt;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  .section-title {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #2E8B57;
+    font-size: 14pt;
+  }
+  ul {
+    margin-top: 5px;
+    font-size: 12pt;
+  }
+</style>
+</head>
+<body>
+
+<h1>Haftalık Beslenme Planı</h1>
+
+<table border="1">
+  <tr>
+    <th>Gün</th>
+    <th>Kahvaltı</th>
+    <th>Öğle</th>
+    <th>Akşam</th>
+  </tr>
+  <tr>
+    <td>Pazartesi</td>
+    <td>1 bardak süt veya yoğurt<br>2–3 sade bisküvi</td>
+    <td>80–100 g pişmiş makarna<br>100 g tavuk<br>1 porsiyon pişmiş sebze</td>
+    <td>1 kase minestrone<br>120 g beyaz balık<br>1 ince dilim ekmek</td>
+  </tr>
+  <tr>
+    <td>Salı</td>
+    <td>1 fincan çay<br>1 dilim ekmek + az miktarda reçel</td>
+    <td>80–100 g pişmiş pirinç<br>1 hafif omlet (1–2 yumurta)<br>1 porsiyon sebze</td>
+    <td>1 kase sebze çorbası<br>80–100 g taze peynir<br>1 dilim ekmek</td>
+  </tr>
+  <tr>
+    <td>Çarşamba</td>
+    <td>1 kase yoğurt<br>1 porsiyon yumuşak meyve</td>
+    <td>80–100 g makarna veya pirinç<br>100 g çok yumuşak et<br>1 porsiyon pişmiş sebze</td>
+    <td>1 kase balkabağı çorbası<br>120 g balık<br>1 küçük haşlanmış patates</td>
+  </tr>
+  <tr>
+    <td>Perşembe</td>
+    <td>1 bardak süt<br>2 sade bisküvi</td>
+    <td>80–100 g makarna<br>100 g hindi<br>1 porsiyon sebze</td>
+    <td>1 kase baklagil çorbası (mercimek/nohut püresi)<br>1 dilim ekmek</td>
+  </tr>
+  <tr>
+    <td>Cuma</td>
+    <td>1 fincan çay<br>1 dilim ekmek + hafif tatlı sürülebilir ekleme</td>
+    <td>80–100 g pirinç<br>120 g balık<br>1 porsiyon sebze</td>
+    <td>1 kase sebze püresi veya çorbası<br>80–100 g taze peynir<br>1 dilim ekmek</td>
+  </tr>
+  <tr>
+    <td>Cumartesi</td>
+    <td>1 kase yoğurt<br>1 porsiyon meyve</td>
+    <td>80–100 g makarna veya 1 dilim ekmek<br>100 g tavuk<br>1 porsiyon hafif sebze</td>
+    <td>1 kase havuç çorbası<br>1–2 adet çırpılmış yumurta<br>1 ince dilim ekmek</td>
+  </tr>
+  <tr>
+    <td>Pazar</td>
+    <td>1 fincan çay<br>1 küçük dilim sade kek</td>
+    <td>80–100 g makarna<br>100–120 g karışık protein (et, tavuk veya balık)<br>1 porsiyon sebze</td>
+    <td>1 kase sebze çorbası<br>120 g balık<br>1 küçük patates</td>
+  </tr>
+</table>
+
+<div class="section-title">Genel Öneriler</div>
+<ul>
+  <li>Su tüketimi: Günlük 1–1,5 L (tıbbi durum izin veriyorsa)</li>
+  <li>Meyve: Günde 1–2 porsiyon</li>
+  <li>Yağlar: Yemeklere 1–2 tatlı kaşığı zeytinyağı</li>
+  <li>Pişirme yöntemi: Haşlama, buharda veya fırında tercih edilmeli</li>
+</ul>
+
+</body>
+</html>
